@@ -2,7 +2,7 @@ pageextension 63051 SCCWCustomerCard extends "Customer Card"
 {
     layout
     {
-        addafter("No.")
+        addlast("General")
         {
             field("ConnectWise Id"; rec."ConnectWise Id")
             {
@@ -33,7 +33,7 @@ pageextension 63052 SCCWVendorCard extends "Vendor Card"
 {
     layout
     {
-        addafter("No.")
+        addlast("General")
         {
             field("ConnectWise Id"; rec."ConnectWise Id")
             {
@@ -65,7 +65,7 @@ pageextension 63053 SCCWItemCard extends "Item Card"
 {
     layout
     {
-        addafter("No.")
+        addlast(Item)
         {
             field("ConnectWise Id"; rec."No. 2")
             {
@@ -73,11 +73,6 @@ pageextension 63053 SCCWItemCard extends "Item Card"
                 Caption = 'ConnectWise Id';
                 ToolTip = 'ConnectWise Unique Identifier';
                 Editable = CWEdit;
-            }
-            field("Entity"; rec."Global Dimension 1 Code")
-            {
-                ApplicationArea = All;
-                ToolTip = 'Entity Identifier';
             }
         }
     }
