@@ -1,0 +1,26 @@
+{
+  "id": "194bb9de-96ab-4b49-931c-63f89142ae34",
+  "name": "SmartConnect ConnectWise MEM Extension",
+  "publisher": "eOne Solution",
+  "version": "1.0.0.3",
+  "brief": "The SmartConnect ConnectWise Extension adds custom fields to store ConnectWise ids",
+  "description": "Used with eOne SmartConnect to integrate ConnectWise data in and out of Business Central",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 63051,
+      "to": 64000
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://SmartConnectConnectWise.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0"
+}
