@@ -1,11 +1,11 @@
 # SmartConnect ConnectWise MEM
  SmartConnect ConnectWise MEM Extension
 
-This extension makes some small modifications to Business Central to improve eCommerce integrations.
+This extension makes some small modifications to Business Central to improve ConnectWise integrations.
 
 ## Included Changes
 
-This Extension modifies two pages in the Business Central, and publishes several web services.
+This Extension modifies two tables and three pages in Business Central, and publishes several web services.
 
 ## Table Changes
 The following tables are modified in the [SCCWTableChanges.TableExt.al](SCCWTableChanges.TableExt.al) file.
@@ -28,7 +28,7 @@ The following two pages are modified in the [SCCWPageChanges.PageExt.al](SCCWPag
 
 1. You can either install the .app file directly or download the source code and make your own extension.
 2. Publish the extension, and click ***Refresh Service List*** on any BC Odata data source.
-3. Import the integration processes for your eCommerce integration.
+3. Import the integration processes for your ConnectWise integration.
 
 ![increment](https://i.imgur.com/ENxN3bc.jpg)
 
