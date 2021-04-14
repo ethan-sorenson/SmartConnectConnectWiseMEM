@@ -45,8 +45,20 @@
         </TenantWebService>
         <TenantWebService>
             <ObjectType>Page</ObjectType>
+            <ServiceName>MEMSalesLines</ServiceName>
+            <ObjectID>70210904</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Page</ObjectType>
             <ServiceName>MEMPurchaseHeader</ServiceName>
             <ObjectID>70210901</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Page</ObjectType>
+            <ServiceName>MEMPurchLines</ServiceName>
+            <ObjectID>70210902</ObjectID>
             <Published>true</Published>
         </TenantWebService>
     </TenantWebServiceCollection>
