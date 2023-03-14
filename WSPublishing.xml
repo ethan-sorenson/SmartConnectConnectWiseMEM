@@ -61,5 +61,11 @@
             <ObjectID>70210902</ObjectID>
             <Published>true</Published>
         </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>CustomerPaymentsQuery</ServiceName>
+            <ObjectID>63051</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
     </TenantWebServiceCollection>
 </ExportedData>

@@ -47,5 +47,6 @@ The following two pages are modified in the [SCCWPageChanges.PageExt.al](SCCWPag
 ## Updates
 
 - 1.0.0.3 first release on BC v17
+- 1.0.0.5 added payments query
 
 ***Enjoy!***
